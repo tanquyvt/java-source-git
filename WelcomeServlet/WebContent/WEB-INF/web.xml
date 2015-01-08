@@ -1,0 +1,25 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
+
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.2//EN"
+ "http://java.sun.com/j2ee/dtds/web-app_2_2.dtd">
+
+<web-app>
+<icon></icon>
+<description></description>
+	<display-name>WelcomeServlet</display-name>
+	<welcome-file-list>
+		<welcome-file>WelcomeServlet</welcome-file>
+		<welcome-file>WelcomeServlet.html</welcome-file>
+	</welcome-file-list>
+
+	<servlet>
+		<servlet-name>welcome1</servlet-name>
+		<servlet-class>com.alliant.test.servlets.WelcomeServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>welcome1</servlet-name>
+		<url-pattern>welcome1</url-pattern>
+	</servlet-mapping>
+</web-app>
